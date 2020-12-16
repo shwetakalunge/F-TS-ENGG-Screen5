@@ -37,6 +37,10 @@ body {
     src: url(Saira-Medium.ttf)
 }
 
+@font-face {
+    font-family: saira-Semibold;
+    src: url(Saira-SemiBold.ttf)
+}
 
 /*---------------------------------*/
 
@@ -72,7 +76,7 @@ body {
 
 
 h1 {
-    font-family: saira-bold;
+    font-family: saira-Semibold;
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
