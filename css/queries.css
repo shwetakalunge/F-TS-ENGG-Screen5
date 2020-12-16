@@ -1,0 +1,69 @@
+/*BIG TABLET TO 1200PX (WIDTH SMALLER THAN THE 1140 PX ROWS) */
+@media only screen and (max-width:1200px) {
+    table {
+        margin: auto
+    }
+
+    .left {
+        max-width: 300px;
+        margin: auto;
+    }
+
+    li {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:1023px) {}
+
+/*SMALL PHONES TO SMALL TABLETS (IPAD-PHONES)-481 TO 767PX PIXELS*/
+@media only screen and (max-width:767px) {
+
+    .title {
+        text-align: center
+    }
+
+    .smart-table thead {
+        display: none;
+
+    }
+
+    .smart-table tr,
+    .smart-table td {
+        display: block;
+        text-align: center;
+
+    }
+
+    .smart-table td {
+        padding-left: 54%;
+        position: relative;
+
+    }
+
+    .smart-table tr:nth-child(n-1) {
+        border: 5px solid #E5E5E5
+    }
+
+    .smart-table td::before {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 55%;
+        content: attr(data-col-title);
+         padding: 20px 0px
+    }
+
+    table {
+        width: 90%;
+        text-align: center;
+        margin: auto
+    }
+
+   
+
+
+}
+
+/*SMALL PHONES TO SMALL TABLETS (IPAD-PHONES)-481 TO 767PX PIXELS*/
+@media only screen and (max-width:320px) {}
