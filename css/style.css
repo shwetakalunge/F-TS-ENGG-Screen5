@@ -266,7 +266,7 @@ td:nth-child(8) {
     opacity: 0.1;
 }
 
-footer div {
+/*footer div {
     display: -webkit-box;
     display: -ms-flexbox;
     display: inline-block;
@@ -278,7 +278,7 @@ footer div {
     font-size: 14px;
     line-height: 20px;
     text-align: center
-}
+}*/
 
 .Section_PageResult {
     float: right;
@@ -293,7 +293,12 @@ footer div {
 
 .pagination {
     display: inline-block;
-    margin-left: 12px
+    margin-left: 12px;
+    font-family: saira-regular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
 }
 
 .pagination a {
