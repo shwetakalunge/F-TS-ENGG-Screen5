@@ -14,8 +14,6 @@
     }
 }
 
-@media only screen and (max-width:1023px) {}
-
 /*SMALL PHONES TO SMALL TABLETS (IPAD-PHONES)-481 TO 767PX PIXELS*/
 @media only screen and (max-width:767px) {
 
@@ -36,7 +34,7 @@
     }
 
     .smart-table td {
-        padding-left: 54%;
+        padding-left: 50%;
         position: relative;
 
     }
@@ -51,19 +49,25 @@
         top: 0;
         width: 55%;
         content: attr(data-col-title);
-         padding: 20px 0px
+        padding: 10px 0px;
     }
 
     table {
-        width: 90%;
+        width: 100%;
         text-align: center;
         margin: auto
     }
 
-   
+    .modal-content {
+        width: 746px;
+        height: 280px;
+        max-width: 250px
 
+    }
 
+    h1 {
+  
+    font-size: 26px;
+    line-height: 37px;
+    }
 }
-
-/*SMALL PHONES TO SMALL TABLETS (IPAD-PHONES)-481 TO 767PX PIXELS*/
-@media only screen and (max-width:320px) {}
