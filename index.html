@@ -35,11 +35,25 @@
             <section class="section_logo">
                 <img src="images/logo.png" class="logo_class">
             </section>
-            <ul>
+            <ul class="main_nav">
                 <li>Requirements</li>
                 <li>Upload model</li>
                 <li>BIM Model Overview</li>
             </ul>
+
+            <div id="flip">
+                <button style="  font-family: saira-regular;border: none; height: 45px;padding: 10px;cursor: pointer">Click For More Options</button>
+
+            </div>
+            <div id="panel">
+                <ul>
+                   <li>Requirements</li>
+                <li>Upload model</li>
+                <li>BIM Model Overview</li>
+                </ul>
+
+            </div>
+
         </div>
         <div class="right">
             <div class="home">
@@ -199,6 +213,13 @@
             </div>
         </div>
     </section>
-</body>
-
-</html>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-------------------------------------------------------->
+    <script>
+        $(document).ready(function() {
+            $("#flip").click(function() {
+                $("#panel").slideToggle("slow");
+            });
+        });
+    </script>
+</body></html>
